@@ -1,0 +1,20 @@
+package com.leoteste00.demo.controller;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.leoteste00.demo.entities.Departament;
+
+@RestController
+@RequestMapping(value = "/products")
+public class ProductController {
+	
+	public Departament getObjects() {
+		Departament d1 = new Departament();
+		d1.setId(1L);
+		d1.setName("Tech");
+		
+		return d1;
+	}
+
+}
