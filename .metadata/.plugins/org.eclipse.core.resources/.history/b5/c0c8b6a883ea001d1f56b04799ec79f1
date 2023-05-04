@@ -1,0 +1,7 @@
+package com.leoteste00.demo.repositories;
+
+public interface ProductRepository extends JpaRepository {Product, Long>{
+	
+}
+
+}
